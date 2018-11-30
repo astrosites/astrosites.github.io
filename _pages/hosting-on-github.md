@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hosting on GitHub
-nav-order: 1
+nav-order: 2
 ---
 
 GitHub Pages makes it easy for you to **easily** and **freely** share a *static* webpage with the world. Static webpages are exactly what they sound like: their content is mostly static as a user interacts with it. In practice, this just means that your webpage does not talk to any servers as a user browses the page. While this does limit the functionality of your site (you won't be making a YouTube or Twitter clone on GitHub), hosting a static site means your site will always be **secure**, **quick to load**, and **responsive**. This is in direct contrast to dynamic sites developed with, e.g. Wordpress, which are plagued by security issues and can get very slugish as your webpage gets larger and the number of users accesssing your site increases.

@@ -25,7 +25,7 @@ Static webpages are **simple**, **easy**, and **free**, so they are one of the p
 5. When finished editing, do the following commands:
    - `git add -A`
      	  
-	 **Note:** The flag `-A` add all the files in your directory. If you only want to push certain files, do `git add <file_name>`.
+	 **Note:** The flag `-A` adds all the files in your directory. If you only want to push certain files, do `git add <file_name>`.
    
    - `git commit -m "No Firelord Ozai, you're not wearing any pants!"`
    - `git push`

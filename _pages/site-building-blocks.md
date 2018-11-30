@@ -11,7 +11,7 @@ Hyper Text Markup Language (HTML) is the standard markup language for creating w
 		Here is a paragraph.
         </p>
 
-HTML code controls the **content** of a web page.
+HTML code controls the **content** of a web page. <a href="https://www.w3schools.com/html/">Learn more about HTML.</a>
 
 # CSS
 Cascading Style Sheets (CSS) is a style sheet language that describes the presentation of web pages written in a markup langauge - such as HTML - including layout, colors, fonts, etc. In CSS, *selectors* declare which part of the markup a particular style applies to by matching HTML tags to style attributes. For example, you may encounter the following:
@@ -23,7 +23,7 @@ Cascading Style Sheets (CSS) is a style sheet language that describes the presen
 
 This says that the Header 1 styling for a particular web page carries the tag "h1". All pieces of text within the HTML code that hold the tags <h1> ... </h1> will have a font size of 2.25 times that of the root element (defined elsewhere in the CSS file, default 16pt) and a letter spacing of 0.5 times that of the root element.
 
-CSS code controls the **styling** of a web page.
+CSS code controls the **styling** of a web page. <a href="https://www.w3schools.com/css/">Learn more about CSS.</a>
 
 # JavaScript
 
@@ -43,4 +43,4 @@ JavaScript enables interactive web pages, supporting dynamic behavior, informati
         return $this;
 
 
-JavaScript code controls user **interactions** with a web page.
+JavaScript code controls user **interactions** with a web page. <a href="https://www.w3schools.com/js/">Learn more about JavaScript.</a>

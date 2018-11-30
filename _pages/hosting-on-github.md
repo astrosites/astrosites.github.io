@@ -12,11 +12,9 @@ Static webpages are **simple**, **easy**, and **free**, so they are one of the p
 
 **Guide**: [https://pages.github.com/](https://pages.github.com/)
 
-Put in information + pictures for how to make a repo
+1. Make a new repository by going to `https://github.com/<your_username> -> Repositories -> New` where `<your_username>` is replaced with your GitHub username.
 
-1. Make a new repository.
-
-2. Under "reposity name", put `<your_username>.github.io`, where `<your_username>` is replaced with your GitHub username. The repository **MUST** be called this, otherwise GitHub won't recognize that you are trying to use GitHub pages. Initialize the repository with a `README` file.
+2. Under "reposity name", put `<your_username>.github.io`. The repository **MUST** be called this, otherwise GitHub won't recognize that you are trying to use GitHub pages. Initialize the repository with a `README` file.
 
 3. Navigate to your newly created repository and click "Settings" and scroll to "GitHub Pages". Ensure that your repository has GitHub Pages enabled and that `master branch` is chosen under "Source".
 

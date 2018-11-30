@@ -86,6 +86,7 @@ By default, github pages doesn't support access to your site with HTTPS with a c
 4. Scroll down to Cloudflare Nameservers and take note of the two nameservers provided to you.
     - Some examples are lorna.ns.cloudflare.com and phil.ns.cloudflare.com.
 
+
 5. Under the Crypto settings for your site on Cloudflare, scroll to "SSL" and ensure that Full SSL encryption is being used.
 
 6. Scroll to "Always use HTTPS" and flick the switch to "On".

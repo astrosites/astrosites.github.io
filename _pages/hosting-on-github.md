@@ -12,6 +12,30 @@ Static webpages are **simple**, **easy**, and **free**, so they are one of the p
 
 **Guide**: [https://pages.github.com/](https://pages.github.com/)
 
+### Workflow Specific to This Tutorial
+
+1. Fork the AstroSites template repository to your personal GitHub by going to `https://github.com/astrosites/template --> Fork [found in upper right-hand corner]`.
+
+2. Rename the AstroSites template repository to `<your_username>.github.io` by going to `https://github.com/<your_username>/template -> Settings`. The repository **MUST** be called this, otherwise GitHub won't recognize that you are trying to use GitHub pages.
+
+3. Clone the newly-renamed repository to your personal computer by going to a terminal and typing `git clone https://github.com/<your_username>/<your_username>.github.io`.
+
+4. Edit the file 'index.html' within this repository to include your personal information.
+
+5. When finished editing, do the following commands:
+   - `git add -A`
+     	  
+	 **Note:** The flag `-A` add all the files in your directory. If you only want to push certain files, do `git add <file_name>`.
+   
+   - `git commit -m "No Firelord Ozai, you're not wearing any pants!"`
+   - `git push`
+
+6. Return to `https://github.com/<your_username>/<your_username>.github.io` to view your new commits.
+
+7. Visit the website `<your_username>.github.io` to see the changes in your website.
+
+### General Workflow
+
 1. Make a new repository by going to `https://github.com/<your_username> -> Repositories -> New` where `<your_username>` is replaced with your GitHub username.
 
 2. Under "reposity name", put `<your_username>.github.io`. The repository **MUST** be called this, otherwise GitHub won't recognize that you are trying to use GitHub pages. Initialize the repository with a `README` file.
@@ -19,6 +43,7 @@ Static webpages are **simple**, **easy**, and **free**, so they are one of the p
 3. Navigate to your newly created repository and click "Settings" and scroll to "GitHub Pages". Ensure that your repository has GitHub Pages enabled and that `master branch` is chosen under "Source".
 
 4. Create a new file `index.html` in your repository. This will act as your main landing page (when someone types in the url `http://<your_username>.github.io`, GitHub will serve up the file `index.html`).
+
 
 # Using a custom domain name
 

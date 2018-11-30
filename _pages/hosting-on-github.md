@@ -18,11 +18,13 @@ Static webpages are **simple**, **easy**, and **free**, so they are one of the p
 
 2. Rename the AstroSites template repository to `<your_username>.github.io` by going to `https://github.com/<your_username>/template -> Settings`. The repository **MUST** be called this, otherwise GitHub won't recognize that you are trying to use GitHub pages.
 
-3. Clone the newly-renamed repository to your personal computer by going to a terminal and typing `git clone https://github.com/<your_username>/<your_username>.github.io`.
+3. Navigate to your newly created repository and click "Settings" and scroll to "GitHub Pages". Ensure that your repository has GitHub Pages enabled and that `master branch` is chosen under "Source".
 
-4. Edit the file 'index.html' within this repository to include your personal information.
+4. Clone the newly-renamed repository to your personal computer by going to a terminal and typing `git clone https://github.com/<your_username>/<your_username>.github.io`.
 
-5. When finished editing, do the following commands:
+5. Edit the file 'index.html' within this repository to include your personal information.
+
+6. When finished editing, do the following commands:
    - `git add -A`
      	  
 	 **Note:** The flag `-A` adds all the files in your directory. If you only want to push certain files, do `git add <file_name>`.
@@ -30,9 +32,9 @@ Static webpages are **simple**, **easy**, and **free**, so they are one of the p
    - `git commit -m "No Firelord Ozai, you're not wearing any pants!"`
    - `git push`
 
-6. Return to `https://github.com/<your_username>/<your_username>.github.io` to view your new commits.
+7. Return to `https://github.com/<your_username>/<your_username>.github.io` to view your new commits.
 
-7. Visit the website `<your_username>.github.io` to see the changes in your website.
+8. Visit the website `<your_username>.github.io` to see the changes in your website.
 
 ### General Workflow
 

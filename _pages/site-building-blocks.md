@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Website Building Blocks
-nav-order: 1
+nav-order: 2
 ---
 
 # HTML

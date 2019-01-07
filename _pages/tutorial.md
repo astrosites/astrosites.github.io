@@ -309,9 +309,9 @@ We can see that the card is created using the following HTML:
     Content inside here
 </article>
 ```
-which is an `<article>` element with the ID `about` and the class `active`. Notice also that there are other `<article>` elements below this one with IDs `research`, `community`, and `contact`, which are the names of the other buttons, and which do not have the `class="active"` attribute but do have a `style="display: none;"` attribute. Finally, notice that upon clicking the "About Me" button on the home page, we were redirected to [https://your-github-name.github.io/#about](#). When a URL is followed by `#something`, your browser moves the page to display the element with `id=something`. This indicates that the template has some JavaScript built into it that hides all of the cards when you initially load the page, but shows them by changing the `<article>` elements' `class` and `style` attributes when you click on one of the navigation buttons on the front page. (Finally, notice what happens to the URL and `<article>` elements when you click the "X" icon in the top-right of the card.)
+which is an `<article>` element with the ID `about` and the class `active`. Notice also that there are other `<article>` elements below this one with IDs `research`, `community`, and `contact`, which are the names of the other buttons, and which do not have the `class="active"` attribute but do have a `style="display: none;"` attribute. Finally, notice that upon clicking the "About Me" button on the home page, we were redirected to [https://your-github-name.github.io/#about](#). When a URL is followed by `#something`, your browser moves the page to display the element with `id=something`. This indicates that the template has some JavaScript built into it that hides all of the cards (`style="display: none;"`) when you initially load the page, but shows them by changing the `<article>` elements' `class` and `style` attributes when you click on one of the navigation buttons on the front page, adding `class="active"` and removing `style="display: none;"`. (Finally, notice what happens to the URL and `<article>` elements when you click the "X" icon in the top-right of the card.)
 
-Next, in the GitHub interface, navigate to `index.html` and click the pencil icon so we can make some changes. Perform a descriptive search to find the HTML we are interested in. Note that since the HTML we are interested in is so far down in the `index.html` file, you may need to use the built in file search function to perform a search. To do so, click on the inner box in the webpage that contains the text of `index.html` and hit Ctrl-F or Command-F again to do your search.
+Next, in the GitHub interface, navigate to `index.html` and click the pencil icon so we can make some changes. Perform a descriptive search to find the HTML we are interested in. Note that since the HTML we are interested in is so far down in the `index.html` file, you may need to use GitHub's built in file search function to perform a search. To do so, click on the inner box in the webpage that contains the text of `index.html` and hit Ctrl-F or Command-F again to do your search.
 
 ![](/tutorial/images/about-me-search.jpg)
 
@@ -337,24 +337,27 @@ There are two important things to notice. First, the `<title>` element, which co
 
 ![](/tutorial/images/site-title-changed.jpg)
 
-## Continuing Edits
+## Changing the Background Image
 
-We've shown you how to edit the basic components of this template. You should now be able to edit this template to your heart's content! You can also find another template that better suits your tastes and needs and start editing it in a similar way.
-
-What follows are optional changes that you might want to make
-
-### Changing the Background Image
-
-On this template it's a bit hard to find the HTML and CSS that controls the background image. However, if right click on the main page of the site and click inspect, you will find that there are two children elements of the `<body>` tag: the `<div id="wrapper">` (which wraps the main content of the site) and the `<div id="bg">` element, which appears to take up the whole page. The conspicious name and the element's rendered size indicate to us that this element controls the background image. 
+On this template it's a bit hard to find the HTML and CSS that controls the background image. However, if you right click on the main page of the site and click inspect, you will find that there are two children elements of the `<body>` tag: the `<div id="wrapper">` (which wraps the main content of the site) and the `<div id="bg">` element, which appears to take up the whole page. The conspicious name and the element's rendered size indicate to us that this element controls the background image. 
 
 ![](/tutorial/images/bg-inspect.jpg)
 
 ![](/tutorial/images/bg-inspect-element.jpg)
 
-If you look inside the `<div id="bg>` element, you will see that it does not contain much inside of it other than a `::before` and `::after` element. This indicates that the background is entirely controlled through the site's CSS. To edit the image, we will need to edit the CSS file. Using the GitHub browser, from the root folder navigate to the `assets` then to the `css` folder. Open the file `main.css` and click the pencil icon to make edits. Perform a search for the **ID** of the div element: "#bg" (since the element was `<div id="bg">` then the CSS selector will be `#bg`). Next we will scroll down and visually inspect the CSS for where the `background-image` attribute is in use. (Note that we could have just opened the CSS file and searched for "background-image" to see where the background was being manipulated. However, since there are other ways in HTML and CSS to set a background image, this method is not always reliable.)
+If you look inside the `<div id="bg>` element, you will see that it does not contain much inside of it other than a `::before` and `::after` element. This indicates that the background is entirely controlled through the site's CSS. To edit the image, we will need to edit the CSS file. Using the GitHub browser, from the root folder navigate to the `assets` then to the `css` folder. Open the file `main.css` and click the pencil icon to make edits. Perform a search for the ID of the div element "#bg" (since the element was `<div id="bg">` then the CSS selector will be `#bg`). Next we will scroll down and visually inspect the CSS for where the `background-image` attribute is in use. (Note that we could have just opened the CSS file and searched for "background-image" to see where the background was being manipulated. However, since there are other ways in HTML and CSS to set a background image, this method is not always reliable.)
 
 ![](/tutorial/images/background-image.jpg)
 
 Note that there are two locations where `background-image` is set, however they are set with two different values of `z-index`. The `z-index` attribute sets the order that elements are rendered in. Elements that have a larger value of `z-index` set are rendered on top of elements with a smaller value of `z-index`. This indicates that the real background image is the one with `z-index: 1` under the `#bg:after` selector. (The other background image is a speckled gray overlay that makes text stand out on the real background. Check out `images/overlay.jpg` to see it.) The background image is set to `url("../../images/bg.jpg");` which loads an image from the URL `../../images/bg.jpg`. Here the `../` tells the browser to go up a level in the website's file structure. This is necessary since our CSS file exists at the location `assets/css/`. Thus inside the CSS file a URL of `../` would really point to `assets/` and `../../` would really point to the root folder of our site, allowing us to access the `images/` folder. Change the url from `url("../../images/bg.jpg");` to `url("../../images/Astronomy.jpg");` to change the background image and then commit your changes. You can also use any other URL you want to point elsewhere on the web, or you can upload another image to use instead. Reload your site to see your changes!
 
 ![](/tutorial/images/background-changed.jpg)
+
+
+## Continuing Edits
+
+We've shown you how to edit the basic components of this template. You should now be able to edit this template to your heart's content! You can also find another template that better suits your tastes and needs and start editing it in a similar way.
+
+
+# Summary
+

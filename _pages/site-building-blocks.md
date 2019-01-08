@@ -10,7 +10,9 @@ nav-order: 2
 
 #### Reference: [https://www.w3schools.com/html/](https://www.w3schools.com/html/)
 
-Every webpage on the internet is built using Hypertext Markup Language (HTML). Every webpage is built up from **elements**, or single semantic componenets, which are represented in code as `<element>`, which is called an element tag. For example, a blog you'd read online is built from a few paragraphs (`<p>`), a few images (`<img src="URL">`), and links (`<a href="URL">`) to other sites. Some elements, like images and links, exist as a discrete unit; however, other elements, like paragraphs, **wrap** other content. These elements that wrap content are represented in code as `<element> Content </element>` where that second element tag closes (represented with the `</`) the first element tag. For example, if you had a paragraph it would look like this:
+Every webpage on the internet is built using Hypertext Markup Language (HTML). Every webpage is built up from **elements**, or single semantic componenets, which are represented in code as `<element>`, which is called an element tag. For example, a blog you'd read online is built from a few paragraphs (`<p>`), a few images (`<img src="URL">`), and links (`<a href="URL">`) to other sites. Some elements, like images and links, exist as a discrete unit; however, other elements, like paragraphs, **wrap** other content. These elements that wrap content are represented in code as `<element> Content </element>` where that second element tag closes (represented with the `</`) the first element tag. Because HTML is so dynamic, most of the elements encountered in HTML have wrapping capabilities and will require a closing tag. Comments in HTML are indicated with the opening and closing tags `<!--- Content --->`.
+
+For example, if you had a paragraph it would look like this:
 
 ```html
 <p>

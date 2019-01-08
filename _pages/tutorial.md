@@ -122,7 +122,7 @@ Now if you reload your site, you'll find your image has changed!
 
 ![](/tutorial/images/img-changed.jpg)
 
-## Changing "About Me" Information
+## Changing Personal Information
 
 Next, we'll change the information that exists in one of the pop-up cards, specifically the "About Me" card. First, on our site we'll click on the "About Me" button to open the card.
 

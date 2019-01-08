@@ -8,11 +8,11 @@ There are several different paths you can take when building a GitHub pages read
 
 # Build it yourself
 
-It's not uncommon for those with a little webdev experience to simply build your own website. However, in 2018, no one is building pages from scratch! Build a page yourself still doesn't mean writing a bunch of your own code!
+It's not uncommon for those with a little webdev experience to simply build your own website. However, in 2019, few people are building pages from scratch! Building a page yourself still doesn't mean writing a bunch of your own code!
 
-Right now, the most popular method for building your own webpage is to use Bootstrap components. [Bootstrap][https://getbootstrap.com/] is a collection of HTML, CSS, and JavaScript **components** which you can choose and pick for your own website. For example, if you wish to have something on your website that produces a slideshow of pictures, you can simply grab Bootstrap's [Carousel component](https://getbootstrap.com/docs/4.1/components/carousel/) and integrate it into your own page. 
+Right now, the most popular method for building your own webpage is to use Bootstrap components. [Bootstrap](https://getbootstrap.com/) is a collection of HTML, CSS, and JavaScript **components** which you can choose and pick for your own website. For example, if you wish to have something on your website that produces a slideshow of pictures, you can simply grab Bootstrap's [Carousel component](https://getbootstrap.com/docs/4.1/components/carousel/) and integrate it into your own page. 
 
-Web development is a huge community and there is an enormous amount of material and code out there already that already implements what you want to implement! So do a google search before you start writing anything yourself.
+Web development has a **huge** community around it and there is an enormous amount of material and code out there already that already implements what you want to implement! So do a google search before you start writing anything yourself.
 
 If you are interested in going this route, many people use [Gulp](https://gulpjs.com/) to manage and build their site as they edit the raw components of it.
 
@@ -35,6 +35,8 @@ Many people choose to use simple website templates that look *really* nice and b
 
 Building sites with Jekyll isn't really any harder than building one using HTML templates. When building a site with Jekyll, you simply edit a few text files (really **Markdown** files) which then get pushed through a bunch of templated HTML and Jekyll's site generation software to build a static webpage for you. In simple terms, you specify the raw content on your page, you choose a [Jekyll theme](https://jekyllthemes.io/) which determines the layout of your content on a webpage, and Jekyll builds the site for you using your content and the theme. The beauty of this set up is that your content is separate from your theme. If you want to change how your website looks, you don't need to make many edits to any of the files you wrote yourself, you simply swap in a new theme. 
 
+If you are interested in migrating a blog from WordPress to Jekyll, check out [this tool on GitHub](https://github.com/benbalter/wordpress-to-jekyll-exporter).
+
 ## Pelican
 
 **Themes**: [http://www.pelicanthemes.com/](http://www.pelicanthemes.com/)
@@ -50,3 +52,5 @@ Also, since Pelican is not officially supported by GitHub pages, you cannot simp
 ## Sphinx
 
 [Sphinx](http://www.sphinx-doc.org/en/master/) is a documentation generator built in Python. If you are interested in creating and publishing documentation for a project or a code base online, then Sphinx is probably your best bet. 
+
+## 

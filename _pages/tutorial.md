@@ -12,7 +12,9 @@ This page contains a tutorial to get you set up with a personal website using ou
 
 First, you will want to familiarize yourself with HTML, CSS, and JavaScript by reading our tutorial on [website building blocks](/site-building-blocks/). Once you are familiar with those concepts, please procede with the following tutorial.
 
-# Add information about where to get template and why we used this one!
+# HTML5 Up Templates
+
+We will be editiing a template taken from [HTML5 Up](https://html5up.net/), a website that provides you with free website templates that you can edit and publish as your own. We have chosen to use an altered version of the [Dimension theme](https://html5up.net/dimension) for this workshop. We have chosen this template for its simplicity, aesthetic look, and functionalalty. However, if this template does not work for you, there are several more options available to you, and you should be able to transfer what you learn from editing our template using this tutorial to editing other template sites.
 
 # Grabbing the Template
 
@@ -78,7 +80,7 @@ Going back to GitHub, we can now find and edit the "First Last" text. Use Ctrl-F
 
 ![](/tutorial/images/commit-changes.jpg)
 
-If you refresh your website at [https://your-github-name.github.io](#), you should see your site with the updates you've made.
+If you refresh your website at [https://your-github-name.github.io](#), you should see your site with the updates you've made. If you don't see your updates, wait a minute and then refresh again. If you still don't see your website, or some of your changes have taken effect but not others, try doing a "force reload" on the page, usually Ctrl-Shift-R or Command-Shift-R. (You can also try disabling caching in your browser, which will vary between browsers.)
 
 ![](/tutorial/images/site-with-name.jpg)
 
@@ -184,11 +186,10 @@ Note that there are two locations where `background-image` is set, however they 
 
 ![](/tutorial/images/background-changed.jpg)
 
-
 ## Continuing Edits
 
 We've shown you how to edit the basic components of this template. You should now be able to edit this template to your heart's content! You can also find another template that better suits your tastes and needs and start editing it in a similar way.
 
-
 # Summary
 
+Hopefully using this tutorial you've been able to get a website set up for yourself. If you are interested in using a different template, you can check out other templates [here](https://html5up.net/). If you are interested in other tools to make websites, you can find additional information [here](/building-options/).

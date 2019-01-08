@@ -80,7 +80,7 @@ Going back to GitHub, we can now find and edit the "First Last" text. Use Ctrl-F
 
 ![](/tutorial/images/commit-changes.jpg)
 
-If you refresh your website at [https://your-github-name.github.io](#), you should see your site with the updates you've made. If you don't see your updates, wait a minute and then refresh again. If you still don't see your website, or some of your changes have taken effect but not others, try doing a "force reload" on the page, usually Ctrl-Shift-R or Command-Shift-R. (You can also try disabling caching in your browser, which will vary between browsers.)
+If you refresh your website at [https://your-github-name.github.io](#), you should see your site with the updates you've made. If you don't see your updates, wait a minute and then refresh again. To speed up the process, try doing a "force reload" on the page, usually Ctrl-Shift-R or Command-Shift-R. This bypasses your browser's automatic caching sytem and grabs all the content from their original source. (You can also try disabling caching in your browser, which will vary between browsers.)
 
 ![](/tutorial/images/site-with-name.jpg)
 

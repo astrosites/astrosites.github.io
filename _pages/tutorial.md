@@ -16,6 +16,12 @@ First, you will want to familiarize yourself with HTML, CSS, and JavaScript by r
 
 We will be editing a template taken from <a href="https://html5up.net/" target="_blank">HTML5 template</a>, a website that provides you with free website templates that you can edit and publish as your own. We have chosen to use an altered version of the <a href="https://html5up.net/dimension" target="_blank">Dimension theme</a> for this workshop. We have chosen this template for its simplicity, aesthetic look, and functionality. However, if this template does not work for you, there are several more options available to you, and you should be able to transfer what you learn from editing our template using this tutorial to editing other template sites.
 
+# Hosting on GitHub
+
+For this tutorial, we will be using GitHub as a hosting platform through their service [GitHub Pages](https://pages.github.com/). GitHub pages makes it easy for you to **easily** and **freely** share a *static* webpage with the world. Static webpages are exactly what they sound like: their content is mostly static as a user interacts with it. In practice, this just means that your webpage does not talk to any servers as a user browses the page. While this does limit the functionality of your site (you won't be making a YouTube or Twitter clone on GitHub), hosting a static site means your site will always be **secure**, **quick to load**, and **responsive**. This is in direct contrast to dynamic sites developed with, e.g. Wordpress, which are plagued by security issues and can get very slugish as your webpage gets larger and the number of users accesssing your site increases. Static webpages are **simple**, **easy**, and **free**, so they are one of the preferred ways to make a site in 2019.
+
+To follow this tutorial, you will need a GitHub account, which you can get here: [https://github.com/join](https://github.com/join).
+
 # Grabbing the Template
 
 Before we start making our personal website, we first need to grab the template from the AstroSites public repository on GitHub. 

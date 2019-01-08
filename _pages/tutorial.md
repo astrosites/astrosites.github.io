@@ -7,14 +7,14 @@ nav-order: 1
 This page contains a tutorial to get you set up with a personal website using our [AstroSites template page](/template/). At the end of this tutorial you will:
 
 1. Know the basics of HTML, CSS, and JavaScript.
-2. Know how to edit an [HTML5 template](https://html5up.net/) site to make it your own.
+2. Know how to edit an <a href="https://html5up.net/" target="_blank">HTML5 template</a> site to make it your own.
 3. Have a personal website published using GitHub Pages.
 
 First, you will want to familiarize yourself with HTML, CSS, and JavaScript by reading our tutorial on [website building blocks](/site-building-blocks/). Once you are familiar with those concepts, please procede with the following tutorial.
 
 # HTML5 Up Templates
 
-We will be editing a template taken from [HTML5 Up](https://html5up.net/), a website that provides you with free website templates that you can edit and publish as your own. We have chosen to use an altered version of the [Dimension theme](https://html5up.net/dimension) for this workshop. We have chosen this template for its simplicity, aesthetic look, and functionality. However, if this template does not work for you, there are several more options available to you, and you should be able to transfer what you learn from editing our template using this tutorial to editing other template sites.
+We will be editing a template taken from <a href="https://html5up.net/" target="_blank">HTML5 template</a>, a website that provides you with free website templates that you can edit and publish as your own. We have chosen to use an altered version of the <a href="https://html5up.net/dimension" target="_blank">Dimension theme</a> for this workshop. We have chosen this template for its simplicity, aesthetic look, and functionality. However, if this template does not work for you, there are several more options available to you, and you should be able to transfer what you learn from editing our template using this tutorial to editing other template sites.
 
 # Grabbing the Template
 

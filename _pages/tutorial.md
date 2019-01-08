@@ -14,7 +14,7 @@ First, you will want to familiarize yourself with HTML, CSS, and JavaScript by r
 
 # HTML5 Up Templates
 
-We will be editiing a template taken from [HTML5 Up](https://html5up.net/), a website that provides you with free website templates that you can edit and publish as your own. We have chosen to use an altered version of the [Dimension theme](https://html5up.net/dimension) for this workshop. We have chosen this template for its simplicity, aesthetic look, and functionalalty. However, if this template does not work for you, there are several more options available to you, and you should be able to transfer what you learn from editing our template using this tutorial to editing other template sites.
+We will be editing a template taken from [HTML5 Up](https://html5up.net/), a website that provides you with free website templates that you can edit and publish as your own. We have chosen to use an altered version of the [Dimension theme](https://html5up.net/dimension) for this workshop. We have chosen this template for its simplicity, aesthetic look, and functionalalty. However, if this template does not work for you, there are several more options available to you, and you should be able to transfer what you learn from editing our template using this tutorial to editing other template sites.
 
 # Grabbing the Template
 

@@ -30,6 +30,7 @@ The basic structure of any webpage looks like this:
     
     <body>
         Our actual site content goes here.
+        <!-- This is a comment about the site content. -->
     </body>
 </html>
 ```
@@ -56,7 +57,7 @@ We can build an example page that has the following HTML:
 </html>
 ```
 
-and when you are looking to edit a template that you've downloaded, you'll want to look in the `<body>` portion of the page. An example of a simple web page built using just HTML can be found [here](/tutorial/html-demo.html). This looks pretty boring! And that's because it's built from just barebones HTML. Cascading Style Sheets (CSS) is another language that adds on to HTML to style each individual element.
+When editing a template that you've downloaded, you'll want to look in the `<body>` portion of the page. An example of a simple web page built using just HTML can be found [here](/tutorial/html-demo.html). This looks pretty simplistic! And that's because it's built from just barebones HTML. Cascading Style Sheets (CSS) is another language that adds on to HTML to style each individual element.
 
 ## CSS
 

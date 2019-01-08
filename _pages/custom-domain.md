@@ -4,7 +4,7 @@ title: Custom Domain Names
 nav-order: 4
 ---
 
-Using a custom domain name can be important for personal marketing, as well as greater variability of name options when GitHub Pages requires the domain name `<your_domain>.github.io`.
+Using a custom domain name can be important for personal marketing and offers one greater freedom to in choosing their domain representation (GitHub Pages requires the domain name `<your_domain>.github.io`).
 
 # Purchasing a domain name
 

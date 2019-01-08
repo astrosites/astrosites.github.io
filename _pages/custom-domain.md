@@ -4,9 +4,7 @@ title: Custom Domain Names
 nav-order: 4
 ---
 
-# Using a custom domain name
-
-## Purchasing a domain name
+# Purchasing a domain name
 
 **Guide**: [https://help.github.com/articles/using-a-custom-domain-with-github-pages/](https://help.github.com/articles/using-a-custom-domain-with-github-pages/)
 
@@ -23,7 +21,7 @@ nav-order: 4
     - www, CNAME, 1h, `https://<your_username>.github.io/.<your_domain_name>.`
     These records tell Google's DNS to point to GitHub to find your page.
 
-## Securing your site with HTTPS
+# Securing your site with HTTPS
 
 **Guide**: [https://gist.github.com/cvan/8630f847f579f90e0c014dc5199c337b](https://gist.github.com/cvan/8630f847f579f90e0c014dc5199c337b)
 

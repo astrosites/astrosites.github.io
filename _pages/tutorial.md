@@ -62,7 +62,7 @@ Each of the navigation buttons opens up a "card" within the window which provide
 
 ## Changing Names
 
-The first thing we want to do is add our name to the site. To do this, we will use the Inspector tool in our web browser to identify which elements in the HTML control what we see displayed as "First Last". Hover your mouse cursor over "First Last", right-click, and select "Inspect". Note that your inspection panel will look different depending on which browser you are using. However, all browsers should have this same functionality available.
+The first thing we want to do is add our name to the site. To do this, we will use the Inspector tool in our web browser to identify which elements in the HTML control what we see displayed as "First Last". Hover your mouse cursor over "First Last", right-click, and select "Inspect". Note that your inspection panel will look different depending on which browser you are using. However, all browsers should have this same functionality available. (For Safari, you must enable this feature by opening Preferences, navigating to the Advanced tab, and enabling "Show Develop menu in menu bar". For more info see [here](https://apple.stackexchange.com/questions/139767/inspect-element-in-safari).)
 
 ![](/tutorial/images/inspect.jpg)
 

@@ -14,7 +14,7 @@ Right now, the most popular method for building your own webpage is to use Boots
 
 Web development has a **huge** community around it and there is an enormous amount of material and code out there already that already implements what you want to implement! So do a google search before you start writing anything yourself.
 
-If you are interested in going this route, many people use [Gulp](https://gulpjs.com/) to manage and build their site as they edit the raw components of it.
+If you are interested in going this route, one option is use [Gulp](https://gulpjs.com/) to manage and build their site as they edit the raw components of it.
 
 # HTML5 Templates
 
@@ -23,7 +23,9 @@ Many people choose to use simple website templates that look *really* nice and b
 - [Templated](https://templated.co/)
 - [Themewagon](https://themewagon.com/theme_tag/free/)
 
-# Blog Generators
+# Static Site Generators
+
+Static site generators are a programmatic way to generate a website. You can find information about many of the popular static site generators at [staticgen.com](https://www.staticgen.com/). The website generators you'll find here are written in several different lanaguages, are built for different audiences, and fulfill different needs. Below, we discuss two static site generators which are particularly relevant to hosting with GitHub and those familiar with Python.
 
 ## Jekyll
 
@@ -52,5 +54,3 @@ Also, since Pelican is not officially supported by GitHub pages, you cannot simp
 ## Sphinx
 
 [Sphinx](http://www.sphinx-doc.org/en/master/) is a documentation generator built in Python. If you are interested in creating and publishing documentation for a project or a code base online, then Sphinx is probably your best bet. 
-
-## 

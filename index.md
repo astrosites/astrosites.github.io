@@ -14,3 +14,5 @@ To understand the building blocks of a website, learn how to host your website o
 
 
 To view our **interactive template**, click <a href='https://astrosites.github.io/template/'>**here**</a>.
+
+The development of AstroSites was lead by <a href="https://stevenstetzler.com/">Steven Stetzler</a> and <a href="https://leahmfulmer.com/">Leah Fulmer</a>.

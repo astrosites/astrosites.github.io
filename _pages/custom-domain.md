@@ -19,7 +19,7 @@ Using a custom domain name can be important for personal marketing and offers on
 4. Under "Name servers", click "Use the Google Domains name servers".
 
 5. Under "Custom resource records", create the following records:
-    - @, A, 1h, 192.30.252.153, (click the + button) 192.30.252.154
+    - @, A, 1h, 185.199.108.153, (click the + button) 185.199.109.153, (click the + button) 185.199.110.153, (click the + button) 185.199.111.153
     - www, CNAME, 1h, `https://<your_username>.github.io/.<your_domain_name>.`
     These records tell Google's DNS to point to GitHub to find your page.
 
@@ -34,8 +34,10 @@ By default, github pages doesn't support access to your site with HTTPS with a c
 2. Under the DNS settings for your site on Cloudflare, go to "DNS Records".
 
 3. Set up the following DNS Records:
-    - A, `<your_domain_name>`, 192.30.252.153, Automatic TTL
-    - A, `<your_domain_name>`, 192.30.252.154, Automatic TTL
+    - A, `<your_domain_name>`, 185.199.108.153, Automatic TTL
+    - A, `<your_domain_name>`, 185.199.109.153, Automatic TTL
+    - A, `<your_domain_name>`, 185.199.110.153, Automatic TTL
+    - A, `<your_domain_name>`, 185.199.111.153, Automatic TTL
     - CNAME, www, `<your_domain_name>`
     
     Note: `<your_domain_name>` should be like `example.com`, **NOT** `www.example.com` nor `http://example.com`

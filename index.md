@@ -17,4 +17,4 @@ To view our **interactive template**, click <a href='https://astrosites.github.i
 
 
 
-The development of AstroSites was lead by **<a href="https://stevenstetzler.com/">Steven Stetzler</a>** and **<a href="https://leahmfulmer.com/">Leah Fulmer</a>**.
+The development of AstroSites was lead by **<a href="https://stevenstetzler.com/">Steven Stetzler</a>** and **<a href="https://leahmfulmer.github.io/">Leah Fulmer</a>**.
